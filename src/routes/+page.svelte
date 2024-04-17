@@ -4,13 +4,13 @@
   let ImageURL = "";
   const requestAPI = async () => {
     try {
+      ImageURL = "";
       const response = await axios.get(
         "https://api.thecatapi.com/v1/images/search"
       );
       if (response.data && response.data.length > 0) {
         ImageURL = response.data[0].url;
       }
-      console.log("Hi");
     } catch (error) {
       console.error(error);
     }
@@ -20,7 +20,12 @@
   });
 </script>
 
-<button class="cat" tabindex="0" aria-label="Get a random cat image" on:click={requestAPI}>
+<button
+  class="cat"
+  tabindex="0"
+  aria-label="Get a random cat image"
+  on:click={requestAPI}
+>
   {#if ImageURL}
     <img src={ImageURL} alt="random img" />
   {:else}
@@ -32,9 +37,11 @@
   :global(html) {
     background-color: theme(colors.gray.100);
   }
-  .cat{
+  .cat {
     display: flex;
     justify-content: center;
-    height: 100vh;
+    align-items: center;
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
   }
 </style>
