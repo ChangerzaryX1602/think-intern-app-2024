@@ -7,3 +7,4 @@ https://tailwindcss.com/docs/guides/sveltekit
 https://rapidapi.com/guides/call-apis-svelte-axios
 ### APIs
 https://developers.thecatapi.com/view-account/ylX4blBYT9FaoVd6OhvR?report=bOoHBz-8t
+![รูป](image.png)
