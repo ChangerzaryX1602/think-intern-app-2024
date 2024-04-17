@@ -8,3 +8,6 @@ https://rapidapi.com/guides/call-apis-svelte-axios
 ### APIs
 https://developers.thecatapi.com/view-account/ylX4blBYT9FaoVd6OhvR?report=bOoHBz-8t
 ![รูป](image.png)
+
+## ปัญหาที่พบ
+ใช้งาน tabler ยังไง
