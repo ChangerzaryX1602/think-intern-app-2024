@@ -10,4 +10,7 @@ https://developers.thecatapi.com/view-account/ylX4blBYT9FaoVd6OhvR?report=bOoHBz
 ![รูป](image.png)
 
 ## ปัญหาที่พบ
-ใช้งาน tabler ยังไง
+- ใช้งาน tabler ยังไง
+- ทำให้ภาพเต็มหน้าจอไม่ได้
+
+# 4/18/2024
