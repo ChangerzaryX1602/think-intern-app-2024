@@ -34,7 +34,6 @@
   </div>
   
   <style>
-    /* Styling for the button */
     .login-button {
       background-color: #4caf50; /* Green */
       border: none;

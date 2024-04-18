@@ -8,7 +8,9 @@
       identifier,
       password
     }).then((response) => {
-      console.log(response);
+      let token = JSON.stringify(response.data.token);
+      console.log(token);
+      localStorage.setItem("token", token);
       alert("Login successful!");
       window.location.href = "/cat";
     }).catch((error) => {
@@ -31,9 +33,8 @@
 </div>
 
 <style>
-  /* Styling for the button */
   .login-button {
-    background-color: #4caf50; /* Green */
+    background-color: #4caf50;
     border: none;
     color: white;
     padding: 15px 32px;
