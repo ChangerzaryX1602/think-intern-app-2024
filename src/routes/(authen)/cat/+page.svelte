@@ -21,13 +21,13 @@
   </script>
   
   <button
-    class="cat"
+    class="w-full h-full"
     tabindex="0"
     aria-label="Get a random cat image"
     on:click={requestAPI}
   >
     {#if ImageURL}
-      <img src={ImageURL} alt="random img" />
+      <img class="w-full h-full" src={ImageURL} alt="random img" />
     {:else}
       <p>Loading...</p>
     {/if}
